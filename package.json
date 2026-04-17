@@ -1,10 +1,20 @@
 {
   "name": "text-toolkit-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight text analysis and transformation library — word count, readability, slugify, truncate, and more",
   "main": "src/index.js",
   "types": "src/index.d.ts",
-  "keywords": ["text", "string", "word-count", "readability", "slug", "truncate", "text-analysis", "nlp-lite", "string-utils"],
+  "keywords": [
+    "text",
+    "string",
+    "word-count",
+    "readability",
+    "slug",
+    "truncate",
+    "text-analysis",
+    "nlp-lite",
+    "string-utils"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
