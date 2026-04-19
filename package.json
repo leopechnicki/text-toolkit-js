@@ -18,6 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/text-toolkit-js"
-  }
+    "url": "https://github.com/leopechnicki/text-toolkit-js"
+  },
+  "files": ["src/", "README.md", "LICENSE"]
 }

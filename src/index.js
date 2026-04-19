@@ -62,6 +62,7 @@ function readingTime(text, wpm = 200) {
  * @returns {number}
  */
 function fleschReadingEase(text) {
+  if (!text) return 0;
   const words = wordCount(text);
   const sentences = sentenceCount(text);
   const syllables = countSyllables(text);
@@ -90,6 +91,7 @@ function countSyllables(text) {
  * @returns {string}
  */
 function slugify(text) {
+  if (!text) return '';
   return text
     .toLowerCase()
     .normalize('NFD')
@@ -119,6 +121,7 @@ function truncate(text, maxLength, suffix = '...') {
  * @returns {Array<{ word: string, count: number }>}
  */
 function extractKeywords(text, topN = 10) {
+  if (!text) return [];
   const stopWords = new Set([
     'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
     'of', 'with', 'by', 'is', 'was', 'are', 'were', 'be', 'been', 'being',
@@ -149,6 +152,7 @@ function extractKeywords(text, topN = 10) {
  * @returns {string}
  */
 function titleCase(text) {
+  if (!text) return '';
   const minorWords = new Set(['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'by', 'in', 'of']);
   return text.split(' ').map((word, i) => {
     if (i === 0 || !minorWords.has(word.toLowerCase())) {
@@ -164,6 +168,7 @@ function titleCase(text) {
  * @returns {string}
  */
 function stripHtml(html) {
+  if (!html) return '';
   return html.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
