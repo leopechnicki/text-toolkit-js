@@ -1,6 +1,19 @@
+<div align="center">
+
 # text-toolkit-js
 
-Lightweight text analysis and transformation library. Zero dependencies. Works in Node.js and browsers.
+**Lightweight text analysis and transformation library. Zero dependencies.**
+
+[![npm version](https://img.shields.io/npm/v/text-toolkit-js.svg?style=flat-square&color=3b82f6)](https://www.npmjs.com/package/text-toolkit-js)
+[![npm downloads](https://img.shields.io/npm/dw/text-toolkit-js.svg?style=flat-square&color=10b981)](https://www.npmjs.com/package/text-toolkit-js)
+[![license](https://img.shields.io/npm/l/text-toolkit-js.svg?style=flat-square&color=6366f1)](https://github.com/leopechnicki/text-toolkit-js/blob/main/LICENSE)
+[![zero dependencies](https://img.shields.io/badge/dependencies-0-22c55e?style=flat-square)](https://www.npmjs.com/package/text-toolkit-js)
+
+[npm](https://npmjs.com/package/text-toolkit-js) · [GitHub](https://github.com/leopechnicki/text-toolkit-js)
+
+</div>
+
+---
 
 ## Install
 
