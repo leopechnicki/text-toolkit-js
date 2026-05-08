@@ -1,6 +1,6 @@
 {
   "name": "text-toolkit-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight text analysis and transformation library — word count, readability, slugify, truncate, and more",
   "main": "src/index.js",
   "types": "src/index.d.ts",
