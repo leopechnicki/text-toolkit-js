@@ -25,11 +25,14 @@ export function readingTime(text: string, wpm?: number): number;
 
 /**
  * Calculate Flesch Reading Ease score.
- * Higher = easier to read. 60–70 is ideal for general audience.
+ * Higher = easier to read. 60â€“70 is ideal for general audience.
  */
 export function fleschReadingEase(text: string): number;
 
-/** Count syllables in text (approximate). */
+/**
+ * Count syllables in text (approximate heuristic).
+ * Used internally by fleschReadingEase.
+ */
 export function countSyllables(text: string): number;
 
 /** Convert text to URL-friendly slug. */
